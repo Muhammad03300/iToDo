@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px 0;
+  }
+  
+  /* Navbar list styles */
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-list li {
+    margin-left: 20px;
+  }
+  
+  /* Navbar link styles */
+  .navbar-list li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-list li a:hover {
+    color: #3498db;
+  }
+  
+  /* Active link styles */
+  .navbar-list li a.active {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Heading styles */
+  .navbar-list li a h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+
+ 
+/* Basic styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header row styling */
+table th {
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+    padding: 12px 15px;
+    text-align: left;
+    color: white;
+}
+
+/* Data row styling */
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Alternate row color */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+table tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Button-like styling for the "Action" column */
+table td:last-child {
+    text-align: center;
+}
+
+table td:last-child button {
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add some spacing around the table */
+.table-container {
+    margin: 20px;
+}
+
+
+
+
+/* Basic styling for the form */
+form {
+    width: 80%;
+    max-width: 400px;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input and textarea styling */
+form input[type="number"],
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #444;
+    background-color: #fff;
+}
+
+/* Button styling */
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #219952;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
+
+
+
+.bton {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bton:hover {
+    background-color: #45a049;
+}
